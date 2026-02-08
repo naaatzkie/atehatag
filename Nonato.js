@@ -32,7 +32,7 @@ noBtn.addEventListener('mouseover', () => {
     messageIndex = (messageIndex + 1) % messages.length;
 
     if (noCount >= 5) {
-        question.innerHTML = "Bayot kay ni NO";
+        question.innerHTML = "EKIS KAY NAG SIGEG NO";
     }
     noCount++;
     yesScale += 0.15;
@@ -42,7 +42,7 @@ noBtn.addEventListener('mouseover', () => {
 });
 
 yesBtn.addEventListener('click', () => {
-    question.innerHTML = "Yeheyy thanks bishhhhh";
+    question.innerHTML = "Yeheyy thanks bruuuhhh";
     gif.src = "cat.gif";
     gif.classList.add('shake');
     document.getElementById('extra-message').style.display = 'block';
@@ -63,7 +63,7 @@ yesBtn.addEventListener('click', () => {
 
 function createHeart() {
     const heart = document.createElement('div');
-    heart.innerHTML = "🖕";
+    heart.innerHTML = "🫶";
     heart.classList.add('heart');
     heart.style.left = Math.random() * 100 + "vw";
     heart.style.animationDuration = Math.random() * 2 + 3 + "s"; 
